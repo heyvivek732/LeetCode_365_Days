@@ -16,16 +16,17 @@ public:
      Node *temp=head;
      int k=2;
      int cnt=0;
+     // Length of Linked List
      while(temp!=NULL){
        cnt++;
        temp=temp->next;
      }
-     
+     // dummy Node for prev Data
     Node *dummy=new Node(0);
     dummy->next=head;
 
     Node *curr=dummy,*prev=dummy,*nxt=dummy;
-
+ // Final operation
     while(cnt>=k){
         curr=prev->next;
          nxt=curr->next;

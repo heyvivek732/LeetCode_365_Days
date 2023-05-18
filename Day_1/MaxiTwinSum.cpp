@@ -18,7 +18,7 @@ Node *reverse(Node *head){
     }
     return prev;
 }
-Node *middle(Node *head){
+Node *middle(Node *head){  
     Node *slow=head;
     Node *fast=head;
     while(fast->next!=nullptr && fast->next->next!=nullptr){
