@@ -37,4 +37,4 @@ class KthLargest{
         }
         return pq.top();
     }
-}
+};
