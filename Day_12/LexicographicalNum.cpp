@@ -16,6 +16,6 @@ int lexicographicalNumber(int n){
 }
 int main(){
     int n;
-    cin>>n;
+    n=13;
     lexicographicalNumber(n);
 }

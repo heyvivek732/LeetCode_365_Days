@@ -61,6 +61,5 @@ long long solve(vector<int>&arr,vector<int>&cost,int x){
       }
       return res;
     }
-};
 
 

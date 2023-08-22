@@ -8,7 +8,7 @@ using namespace std;
 
     Multiplicative Inverse
 
-    
+
 */
 int mod=1e9+7;
 long long modInverse(long long a, long long m) {

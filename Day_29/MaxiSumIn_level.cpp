@@ -47,7 +47,7 @@ int Max_Sum_level(Node *root){
     return level;
 }
 int main(){
-    Node *root=nullptr;
+    Node *root;
     root->val=10;
     root->left->val=20;
     root->right->val=30;

@@ -43,4 +43,4 @@ int solve(int left,int right,vector<int>&cuts,int left_cut,int right_cut){
         sort(cuts.begin(),cuts.end());
         memset(dp,-1,sizeof(dp));
         return solve(0,n,cuts,0,cuts.size()-1);
-    }
+}

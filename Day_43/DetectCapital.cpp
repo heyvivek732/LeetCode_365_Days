@@ -16,6 +16,7 @@ Example 2:
 Input: word = "FlaG"
 Output: false
 */
+
  bool detectCapitalUse(string word) {
         int cnt=0;
         if(word.size()==1) return true;
